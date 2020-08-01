@@ -32,24 +32,15 @@ a.button:focus { outline: none;}
 
 
 .init-loading{position:fixed;left:50%;margin-left:-80px;top:40%;font-size:1.25em;z-index:999999;width:auto;}
-.init-loading div{
-	padding:20px;background:#fff;opacity:0.6;margin:0 auto;
-	border-radius:6px;text-align:center;line-height:30px;
-}
+.init-loading div{padding:20px;background:#fff;opacity:0.6;margin:0 auto;border-radius:6px;text-align:center;line-height:30px;}
 .init-loading img{border-radius:10px;}
 
 
 .file-list-list {width: 100%; z-index: 0;cursor: pointer;}
 .file-list-list .app-link { height: 14px; width: 14px; margin-left: 10px; margin-top: 5px; position: absolute; font-size: 12px; color: #666;}
 /*.file-list-list .app-link::before { font-family: FontAwesome; content: "\f064"; color: #fff; text-shadow: 0 0 5px #333;}*/
-.file-list-list .file {
-	color: #225;width: 100%;height:50px;border-bottom: 1px solid #ddd;
-	border-bottom: solid 1px #f6f6f6;position: relative;
-	margin-top: -1px;
-}
-.file-list-list .file:hover{
-	background: #def;border-color: #def;
-}
+.file-list-list .file {color: #225;width: 100%;height:50px;border-bottom: 1px solid #ddd;border-bottom: solid 1px #f6f6f6;position: relative;margin-top: -1px;}
+.file-list-list .file:hover{background: #def;border-color: #def;}
 
 
 /*.file-list-list .file2 { background: #fff3d9;}*/
@@ -57,11 +48,7 @@ a.button:focus { outline: none;}
 
 .file-list-list .file .filename,.file-list-list .file .filesize,.file-list-list .file .filetime
 {line-height: 25px; height: 25px; font-size: 12px;padding-left:50px;color:#bbb;}
-.file-list-list .file .filename{
-	text-overflow:ellipsis;overflow: hidden;
-	color: #444;font-size: 14px;padding-top: 4px;
-		white-space: nowrap;padding-right: 90px;
-}
+.file-list-list .file .filename{text-overflow:ellipsis;overflow: hidden;color: #444;font-size: 14px;padding-top: 4px;white-space: nowrap;padding-right: 90px;}
 .file-list-list .file .filetime{margin-top: -9px;color:#bbb;}
 .file-list-list .file .filesize{float: right;width: auto;margin-right:50px;padding-left: 0;margin-top: -17px;}
 
@@ -82,24 +69,11 @@ a.button:focus { outline: none;}
 
 	/*display: flex;justify-content: center;flex-direction: column;*/
 }
-.file-list-list .file .ico img{
-	max-height:100%;max-width:100%;
-	display:inline !important;
-}
-.file-list-list .file .meta-info{
-	width: 25px;height: 25px;
-		position: absolute;
-		top: 15px;left:20px;
-}
-.dialog-simple.dialog-min-size .aui-title-bar {
-	background: rgba(0,0,0,0.5);
-}
+.file-list-list .file .ico img{max-height:100%;max-width:100%;display:inline !important;}
+.file-list-list .file .meta-info{width: 25px;height: 25px;position: absolute;top: 15px;left:20px;}
+.dialog-simple.dialog-min-size .aui-title-bar {background: rgba(0,0,0,0.5);}
 
-.btn-list-icon{
-	position: absolute;top: 0;right: 0;
-		width: 42px;height: 42px;line-height: 42px;text-align: center;
-		border-left: 1px solid rgba(255,255,255,0.1);
-}
+.btn-list-icon{position: absolute;top: 0;right: 0;width: 42px;height: 42px;line-height: 42px;text-align: center;border-left: 1px solid rgba(255,255,255,0.1);}
 .btn-list-icon .font-icon:before{content:"\f0ca";}
 .btn-list-icon.active .font-icon:before{content:"\f00a";}
 
@@ -340,9 +314,7 @@ a.button:focus { outline: none;}
 .x-evo,.x-divx,.x-3gp,.x-3g2,.x-asf,.x-ogv,.x-webmv,
 .x-cue,.x-hd,.x-hdmov,.x-mov,.x-mp4v,.x-mpeg,.x-ogm,.x-qt,
 .x-spx,.x-vob,.x-wmv,.x-xvid,.x-webm,.x-m4v,
-.x-mts,.x-mpe,.x-m2ts,.x-mpv,.x-cue,{
-	background-image: url("icon_file","../../images/file_icon/icon_file/movie/movie.png");
-}
+.x-mts,.x-mpe,.x-m2ts,.x-mpv,.x-cue{background-image: url("../../images/file_icon/icon_file/movie/movie.png");}
 .x-flv,.x-f4v{background-image: url("../../images/file_icon/icon_file/movie/flv.png");}
 .x-rmvb{background-image: url("../../images/file_icon/icon_file/movie/rmvb.png");}
 .x-mkv{background-image: url("../../images/file_icon/icon_file/movie/mkv.png");}
